@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>중미산천문대</title>
+    <!-- 제이쿼리 라이브러리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- 작성한 css -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 작성한 js -->
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header id="header">
+            <h1 class="logo">
+                <a href="#"><img src="images/logo.png" alt="중미산천문대"></a>
+            </h1>
+
+            <div class="inner">
+                <nav>
+                    <ul id="gnb">
+                        <li><a href="#" class="depth1">천문대소개</a>
+                            <div class="depth_wrap">
+                                <ul class="depth2">
+                                    <li><a href="#">오시는 길</a></li>
+                                    <li><a href="#">시설안내</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li><a href="#" class="depth1">이용안내</a>
+                            <div class="depth_wrap">
+                                <ul class="depth2">
+                                    <li><a href="#">프로그램 안내</a></li>
+                                    <li><a href="#">이용료 안내</a></li>
+                                    <li><a href="#">관람시간표</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li><a href="#" class="depth1">예약안내</a>
+                            <div class="depth_wrap">
+                                <ul class="depth2">
+                                    <li><a href="#">예약하기</a></li>
+                                    <li><a href="#">예약확인·취소</a></li>
+                                    <li><a href="#">관람시간표</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li><a href="#" class="depth1">공지사항</a>
+                            <div class="depth_wrap">
+                                <ul class="depth2"> 
+                                    <li><a href="#">자주묻는 질문</a></li>
+                                    <li><a href="#">문의하기</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="main_slide_wrap">
+            <!-- 스와이퍼슬라이드 시작 -->
+            <div class="swiper" id="main_slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/main_img.png" alt="슬라이드이미지">
+
+                        <div class="inn">
+                            <div class="txt_box">
+                                <p class="p1">
+                                    별이 보고 싶을 땐 중미산천문대
+                                </p>
+                                <p class="p2">
+                                    해발 420M에 위치한 중미산천문대는<br>
+                                    수도권에서 가장 많은 별을 볼 수 있는 곳입니다.
+
+                                </p>
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="images/main_img.png" alt="">
+
+                        <div class="inn">
+                            <div class="txt_box">
+                                <p class="p1">
+                                    별이 보고 싶을 땐 중미산천문대
+                                </p>
+                                <p class="p2">
+                                    해발 420M에 위치한 중미산천문대는<br>
+                                    수도권에서 가장 많은 별을 볼 수 있는 곳입니다.
+                                </p>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <!-- 스와이퍼슬라이드 끝 -->
+            <div class="in">
+                <a href="#" class="reser">단체예약신청</a>
+            </div>
+        </div>
+
+        <div id="quick_menu">
+            <ul class="menu">
+                <li>
+                    <p>오시는 길</p>
+                    <a href="#"><img src="images/map_ico.png" alt="오시는 길"></a>
+                </li>
+
+                <li>
+                    <p>주차안내</p>
+                    <a href="#"><img src="images/car_ico.png" alt="주차안내"></a>
+                </li>
+
+                <li>
+                    <p>예약안내</p>
+                    <a href="#"><img src="images/calendar_ico.png" alt="예약안내"></a>
+                </li>
+
+                <li>
+                    <p>날씨확인</p>
+                    <a href="#"><img src="images/weather_ico.png" alt="날씨확인"></a>
+                </li>
+            </ul>
+        </div>
+
+        <main>
+            <div class="inner">
+                <section id="program">
+                    <header class="title">
+                        <h2>프로그램안내</h2>
+                        <p>중미산천문대의 다양한 프로그램에 참여해보세요.</p>
+                        <a href="#" class="more">더보기</a>
+                    </header>
+
+                    <ul class="banner_wrap">
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="images/banner1.png"
+                                        alt="당일 별자리 여행-밤하늘 별자리에 대한 해설과 천체 망원경을 통해 다양한 천체들을 관측해요">
+                                </figure>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="images/banner2.png"
+                                        alt="다양한 단체 프로그램-천문영상강의, 별자리 및 천체관측, 야광별자리지도만들기, 천체망원경실습, 태양흑점관측, 태양안경만들기, 천문OX퀴즈, 20인 이상 신청가능">
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="sec_wrap">
+                    <section id="news">
+                        <div class="news_top">
+                            <header class="title">
+                                <h2>소식알림</h2>
+                            </header>
+                            <ul class="tab_menu">
+                                <li><a href="#con1">공지사항</a></li>
+                                <li><a href="#con2">이달의관측대상</a></li>
+                                <li class="on"><a href="#con3">재관측안내</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab_con">
+                            <div id="con1" class="con">
+                                <ul>
+                                    <li>
+                                        <a href="#">중미산천문대 관측 돔 공사 안내</a>
+                                        <span class="date">2024-03-03</span>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">중미산천문대 관측 돔 공사 안내</a>
+                                        <span class="date">2024-03-03</span>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">중미산천문대 관측 돔 공사 안내</a>
+                                        <span class="date">2024-03-03</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div id="con2" class="con">
+                                <ul>
+                                    <li>
+                                        <a href="#">중미산천문대 5월 관측대상(2024년)</a>
+                                        <span class="date">2024-03-03</span>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">중미산천문대 4월 관측대상(2024년)</a>
+                                        <span class="date">2024-03-03</span>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">중미산천문대 3월 관측대상(2024년)</a>
+                                        <span class="date">2024-03-03</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div id="con3" class="con">
+                                <ul>
+                                    <li>
+                                        <a href="#">con3번에 있는 게시글입니다.</a>
+                                        <span class="date">2024-03-03</span>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">게시글 제목을 작성합니다.</a>
+                                        <span class="date">2024-03-03</span>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">게시글 제목을 작성합니다.</a>
+                                        <span class="date">2024-03-03</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="info">
+                        <header class="title">
+                            <h2>관람안내</h2>
+                        </header>
+
+                        <div class="info_wrap">
+                            <p class="tel">0507-1319-0306 (네이버 스마트콜)</p>
+
+                            <dl>
+                                <dt>관람시간</dt>
+                                <dd>월요일~일요일 6:00~11:00</dd>
+    
+                                <dt>휴관안내</dt>
+                                <dd>화요일휴무일</dd>
+    
+                                <dt>위치</dt>
+                                <dd>경기도 양평군 옥천면 중미산로 1268</dd>
+                            </dl>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <div class="top">
+                <div class="inner">
+                    <div class="links">
+                        <a href="#">천문대 소개</a>
+                        <a href="#">이용약관</a>
+                        <a href="#"><em>개인정보처리방침</em></a>
+                        <a href="#">이메일무단수집거부</a>
+                    </div>
+
+                    <div class="sns">
+                        <a href="#" class="insta">
+                            <span class="blind">인스타그램</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="btm">
+                <div class="inner">
+                    <p class="f_logo"><span class="blind">중미산천문대</span></p>
+
+                    <div class="addr_copy">
+                        <address>
+                            경기도 양평군 옥천면 중미산로 1268<br>
+                            대표전화 0507-1319-0306 (네이버 스마트콜)<br>
+                            이메일 <a href="mailto:jungmiastro@naver.com">jungmiastro@naver.com</a>
+                        </address>
+
+                        <p class="copy">&copy; 2024 ASTROCAFE.KR ALL RIGHT RESERVES.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
